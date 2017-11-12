@@ -22,8 +22,7 @@ public class Varasto {
         if (tilavuus > 0.0) {
             this.tilavuus = tilavuus;
         } 
-        if (alkuSaldo>=0.0)  
-        {
+        if (alkuSaldo>=0.0)  {
             taytaTilavuus(alkuSaldo);
         } 
     }
